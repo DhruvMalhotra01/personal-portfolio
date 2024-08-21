@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        *{
+            padding: 0cap;
+            margin:0%;
+            box-sizing: border-box;
+            
+        }
+        body {
+    margin: 0;
+    height: 100vh; 
+    /* background-image: url('https://i.pinimg.com/originals/40/eb/6c/40eb6cb5f9e91a3766b9a3134203aa56.jpg'); */
+    background-color:rgb(128, 97, 78);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+        li ,a , button{
+            font-family: cursive;
+            font-weight:800;
+            font-size:30px;
+            color:#edf0f1;
+            text-decoration: none;
+
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px 10px;
+            margin:0px ;
+            height:200px;
+
+        }
+        .logo{
+            cursor: pointer;
+            margin-right: auto;
+            margin-top: 200px;
+            height: 300px;
+            width: 300px;;
+        }
+        .nav_links{
+            list-style: none;
+            margin-top: 100px;
+            
+        }
+        .nav_links li{
+            display:inline-block;
+            padding: 0px 20px;
+            font-size: 36px;
+        }
+        .nav_links li  a{
+            transition: all 0.3s ease 0s;
+        }
+        .nav_links li  a:hover{
+            color:#0088a9;
+        }
+        button{
+            margin-left: 10px;
+            padding: 9px 25px;
+            background-color: rgba(0,136,169,1);
+            border: none;
+            border-radius: 50px;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            margin-top: 100px;
+            font-size: 36px;
+            margin-right: 20px;;
+        }
+        button:hover{
+            background-color: rgba(0,136,169,0.8);
+        }
+
+
+        .search-box {
+			width: 1200px; /* adjust the width to your liking */
+			height: 90px;
+			border-radius: 40px;
+			background-color: #f0f0f0;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+            position: relative;
+            margin-top: 300px;;
+            margin-left: 200px;
+		}
+		
+		.search-icon {
+			font-size: 40px;
+			color: #666;
+			margin-left: 10px;
+			margin-right: 10px;
+            font-weight: 800;
+		}
+		
+		.search-input {
+			width: 100%;
+			height: 100%;
+			border: none;
+			border-radius: 20px;
+			padding: 10px;
+			font-size: 18px;
+		}
+		
+		.search-input:focus {
+			background-color: #e0e0e0;
+		}
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    background-color: rgb(244, 229, 210);
+}
+
+.nav_bar {
+height: 800px;
+width: 98%;
+justify-self: center;
+background-color: rgb(230, 125, 125);
+display: flex; /* add flexbox layout */
+margin: auto;
+margin-left: 25px;;
+border-radius: 50px;
+position: fixed;
+flex-direction: row; /* layout elements horizontally */
+align-items: center; /* vertically center elements */
+}
+
+.profile-pic {
+width: 600px;
+height: 600px;
+border-radius: 50%;
+object-fit: cover;
+margin-right: 150px; /* add some space between image and text */
+border: 2px solid rgb(219, 142, 142);
+margin-left: 80px;
+}
+
+.text_box {
+/* remove position: relative and other positioning styles */
+background-color: transparent;
+margin: 0; /* remove margin */
+padding: 0; /* remove padding */
+}
+
+.text1 {
+color: blue;
+background-color: transparent;
+font-size: 208px;
+text-align: left;
+margin-bottom: 0px;
+margin-top: 0%;
+padding-top: 0%;
+}
+
+.text2 {
+color: white; /* add color to make text visible on black background */
+font-size: 104px;
+background-color: transparent;
+margin-top: 0%;
+margin-left: 950px;
+}
+.text1, .text2 {
+font-family: 'Dancing Script', cursive;
+}
+.button-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.circle_button {
+/* display: inline-flex; */
+align-items:last baseline;
+justify-content:end;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: #fff;
+border: none;
+cursor: pointer;
+font-family: 'Dancing Script', cursive;
+}
+
+.circle_button img {
+width: 30px;
+height: 30px;
+margin-right: 10px;
+}
+
+.circle_button span {
+font-size: 18px;
+color: #333;
+}
+
+.circle_button:hover {
+background-color: #f0f0f0;
+}
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo_portfolio.png">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="page1_CAFE.html">skills</a></li>
+                <li><a href="menuCard.html">projects</a></li>
+                <li><a href="part1.html">Experience</a></li>
+                <li><a href="part1.html">education</a></li>
+                <li><a href="part1.html">Phone no.</a></li>
+                <li><a href="part1.html">email</a></li>
+            </ul>
+        </nav>
+        <a  href="#section-id"><button>Contact</button></a> 
+    </header>
+    <div class="container">
+        <div class="search-box">
+            <i class=<i class="fas fa-search"></i>"></i>
+            <input type="search" class="search-input" placeholder="Search...">
+        </div>
+        
+    </div>
+    <header>
+        <div class="nav_bar">
+          <img src="profile.png" alt="Image description" class="profile-pic">
+          <div class="text_box">
+            <h1 class="text1">Dhruv Malhotra</h1>
+            <p class="text2">my portfolio</p>
+          </div>
+          <div class="button-container">
+            <button class="circle_button">
+              <img src="logo1.png" alt="Logo 1">
+              <span>Text 1</span>
+            </button>
+            <button class="circle_button">
+              <img src="logo2.png" alt="Logo 2">
+              <span>Text 2</span>
+            </button>
+            <button class="circle_button">
+              <img src="logo3.png" alt="Logo 3">
+              <span>Text 3</span>
+            </button>
+            <i class="fa-regular fa-bell fa-shake"></i>
+          </div>
+        </div>
+      </header>
+</body>
+</html>
